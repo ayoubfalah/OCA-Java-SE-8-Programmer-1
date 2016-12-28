@@ -12,7 +12,7 @@ public class TraditionalSearch
     animals.add(new Animal("rabbit", true, false));
     animals.add(new Animal("turtle", false, true));
 
-    print(animals, new CheckIfHopper());
+    print(animals, a -> a.canHop());
   }
 
   private static void print(List<Animal> animals, CheckTrait checker)
