@@ -1,6 +1,7 @@
 package methods_encapsulation.lambda;
 
 import java.util.*;
+import java.util.function.Predicate;
 
 public class TraditionalSearch
 {
@@ -16,7 +17,7 @@ public class TraditionalSearch
     print(animals, a -> a.canSwim());
   }
 
-  private static void print(List<Animal> animals, CheckTrait checker)
+  private static void print(List<Animal> animals, Predicate<Animal> checker)
   {
     for(Animal animal : animals)
     {
