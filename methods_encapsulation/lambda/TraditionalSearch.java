@@ -13,6 +13,7 @@ public class TraditionalSearch
     animals.add(new Animal("turtle", false, true));
 
     print(animals, a -> a.canHop());
+    print(animals, a -> a.canSwim());
   }
 
   private static void print(List<Animal> animals, CheckTrait checker)

@@ -19,7 +19,7 @@ public class Animal
 
     public boolean canHop() { return canHop; }
 
-    public boolean canSwin() { return canSwim; }
+    public boolean canSwim() { return canSwim; }
 
     public String toString() { return species; }
 }
