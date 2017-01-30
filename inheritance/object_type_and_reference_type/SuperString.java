@@ -6,4 +6,9 @@ public class SuperString implements StringInterface
    {
       return "Super String";
    }
+   
+   public Object toString(String str)
+   {
+      return "Super " + str;
+   }
 }

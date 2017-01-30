@@ -7,10 +7,17 @@ public class SubString extends SuperString
       return "Sub String";
    }
 
+   public String toString(String str)
+   {
+      return "Sub " + str;
+   }
+
    public static void main(String... args)
    {
      Object str1 = new SuperString();
      System.out.println(str1);
+     
+     System.out.println(((Object) new SuperString()).toString());
 
      SuperString str2 = new SuperString();
      System.out.println(str2);
