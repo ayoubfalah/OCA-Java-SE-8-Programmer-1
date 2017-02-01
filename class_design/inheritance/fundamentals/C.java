@@ -1,4 +1,4 @@
-package inheritance;
+package class_design.inheritance.fundamentals;
 
 public class C extends S 
 {

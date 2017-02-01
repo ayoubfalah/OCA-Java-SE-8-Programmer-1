@@ -1,4 +1,4 @@
-package inheritance.cryptosystem.interface_based_design;
+package class_design.inheritance.cryptosystem.interface_based_design;
 
 import java.util.Random;
 

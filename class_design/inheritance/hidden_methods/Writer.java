@@ -1,4 +1,4 @@
-package inheritance.hidden_methods;
+package class_design.inheritance.hidden_methods;
 
 public abstract class Writer
 {

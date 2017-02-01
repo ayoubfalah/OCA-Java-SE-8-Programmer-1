@@ -1,4 +1,4 @@
-package inheritance.interfaces;
+package class_design.inheritance.interfaces;
 
 /**
  *

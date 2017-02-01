@@ -1,4 +1,4 @@
-package inheritance.object_type_and_reference_type;
+package class_design.inheritance.object_type_and_reference_type;
 
 public class SubString extends SuperString
 {

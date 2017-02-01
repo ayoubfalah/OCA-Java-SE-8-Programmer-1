@@ -1,4 +1,4 @@
-package inheritance.cryptosystem.abstractclass_based_design;
+package class_design.inheritance.cryptosystem.abstractclass_based_design;
 
 /**
  *

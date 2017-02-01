@@ -1,4 +1,4 @@
-package inheritance.hidden_methods;
+package class_design.inheritance.hidden_methods;
 
 public class Programmer extends Writer
 {
