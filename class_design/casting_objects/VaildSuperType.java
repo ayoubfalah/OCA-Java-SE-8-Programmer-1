@@ -8,7 +8,7 @@ import java.util.List;
  *
  * @author ayoubfalah
  */
-public class Test 
+public class VaildSuperType 
 {
     public static void main(String[] args) 
     {
